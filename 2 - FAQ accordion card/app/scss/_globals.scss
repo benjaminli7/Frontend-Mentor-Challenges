@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+    font-size: $fontsize;
+    background: linear-gradient($softViolet, $softBlue) no-repeat fixed;
+    background-size: cover;
+}
+
+
+.container {
+    border-radius: 20px;
+    margin-top: 10%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.container-answer {
+    display: none;
+}
+
+.icon {
+    float: right;
+}
+
+
+@media (min-width: $breakpoint-mobile) and  (max-width: $breakpoint-desktop - 1) {
+    .container {
+        font-size: 12px;
+        margin-top: 10%;
+        width:90%;
+    }
+    .container-img {
+        height: 196px;
+        background: url(../../../images/illustration-woman-online-mobile.svg) no-repeat center;
+        margin-top: -110px;
+        margin-left: -10px;
+        width: 100%;
+    }
+
+    .container-imgshadow {
+        height: 104px;
+        background: url(../../../images/bg-pattern-mobile.svg) no-repeat center;
+        transform: translate(15px, 100px);
+    }
+
+    .container-items {
+        padding: 30px;
+    }
+
+    .title{
+        margin-top: 50px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media (min-width: $breakpoint-desktop) {
+    .container-img {
+        height: 359px;
+        background: url(../../../images/illustration-woman-online-desktop.svg) no-repeat center;
+    }
+}

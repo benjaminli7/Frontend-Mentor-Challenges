@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#6565e7)) no-repeat fixed;
+  background: linear-gradient(#af67e9, #6565e7) no-repeat fixed;
+  background-size: cover;
+}
+
+.container {
+  border-radius: 20px;
+  margin-top: 10%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container-answer {
+  display: none;
+}
+
+.icon {
+  float: right;
+}
+
+@media (min-width: 375px) and (max-width: 1279px) {
+  .container {
+    font-size: 12px;
+    margin-top: 10%;
+    width: 90%;
+  }
+  .container-img {
+    height: 196px;
+    background: url(../../../images/illustration-woman-online-mobile.svg) no-repeat center;
+    margin-top: -110px;
+    margin-left: -10px;
+    width: 100%;
+  }
+  .container-imgshadow {
+    height: 104px;
+    background: url(../../../images/bg-pattern-mobile.svg) no-repeat center;
+    -webkit-transform: translate(15px, 100px);
+            transform: translate(15px, 100px);
+  }
+  .container-items {
+    padding: 30px;
+  }
+  .title {
+    margin-top: 50px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container-img {
+    height: 359px;
+    background: url(../../../images/illustration-woman-online-desktop.svg) no-repeat center;
+  }
+}
+/*# sourceMappingURL=main.css.map */
