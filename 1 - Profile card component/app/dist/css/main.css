@@ -10,11 +10,8 @@ body {
   padding: 0;
   font-size: 18px;
   font-family: "Kumbh Sans", sans-serif;
-  background-image: url(../../../images/bg-pattern-bottom.svg), url(../../../images/bg-pattern-top.svg);
   background-color: #19a2ae;
-
-
-  background-position: bottom 50px right 100px
+  background-repeat: no-repeat;
 }
 
 .container {
